@@ -1,0 +1,72 @@
+.leftPaneBox{
+    background-color: white;
+    flex: 2;
+    height: calc(100vh - 50px);
+    overflow-y: scroll;
+    font-family: sans-serif;
+    position: sticky;
+    top: 50px;
+}
+::-webkit-scrollbar{
+    width: 5px;
+}
+::-webkit-scrollbar-track{
+    background-color: rgb(214, 218, 220);
+}
+::-webkit-scrollbar-thumb{
+    background-color: rgb(128, 132, 136);
+}
+
+.leftPaneContainer{
+    padding: 20px;
+}
+
+.leftPaneMenu{
+    padding: 0%;
+    margin: 0%;
+    list-style: none;
+    font-family: sans-serif;
+}
+
+.leftPaneMenuItem{
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+.leftPaneMenuIcon{
+    margin-right: 25px;
+
+}
+
+.pagePic{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+
+.pagesYouLiked{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin-top: 10px;
+    color: rgb(6, 40, 70);
+    font-family: sans-serif;
+}
+
+.pageList{
+    padding: 0%;
+    margin: 0%
+}
+
+.pageListItem{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.PageName{
+    margin-left: 10px;
+}

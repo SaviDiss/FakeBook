@@ -1,0 +1,102 @@
+.postImage{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top: 12px;
+}
+
+.postTop{
+    margin-top: 20px;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.postUserName{
+    font-size: 15px;
+    font-weight: 500;
+    margin: 10px;
+    font-family: sans-serif;
+    margin-top: 20px;
+}
+
+.postTime{
+    font-size: 10px;
+    font-family: sans-serif;
+    margin: 5px;
+    margin-top: 18px;
+    
+    
+}
+
+.postedImage{
+    width: 93%;
+    background-size: cover;
+    margin-left: 25px;
+    margin-top: 25px;
+    -webkit-box-shadow: 2px 3px 15px 5px rgba(0,0,0,0.27); 
+box-shadow: 2px 3px 15px 5px rgba(0,0,0,0.27);
+    margin-bottom: 5px;
+}
+
+.postCaption{
+    margin-left: 20px;
+    margin-top: 15px;
+    margin-bottom: -5px;
+    margin-right: 10px;
+
+}
+
+.post{
+    font-family: sans-serif;
+    margin: 20px;
+    margin-left: 10px;
+    border-radius: 10px;
+    -webkit-box-shadow: 5px 5px 7px 5px rgba(0,0,0,0.32); 
+box-shadow: 5px 5px 7px 5px rgba(0,0,0,0.32);
+
+}
+
+.reactionPic{
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.postBottum{
+    width: 98%;
+    align-items: center;
+    display: flex;   
+}
+
+.postBottomleft{
+    display: flex;
+    align-items: center;
+    margin-bottom: 7px;
+    margin-left: 7px;
+}
+
+.likeCount{
+    margin-left: 10px;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-size: 13px;
+}
+.postBottomRight{
+
+}
+.commentCount{
+    margin-right: 10px;
+    font-family: sans-serif;
+    border-bottom: 1px  gray;
+    cursor: pointer;
+    margin-left: 250px;
+    font-size: 14px;
+}
+
+.postCenter{
+    margin-left: 10px;
+}
